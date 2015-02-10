@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "LinkedIn Conversation",
+  "version": "0.0",
+  "browser_action":
+  {
+    "default_icon": "images/icon.png",
+    "default_title": "LinkedIn Conversation",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["lib/jquery.min.js", "background.js"]
+  },
+  "permissions": 
+  [
+    "activeTab", 
+    "https://www.linkedin.com/",
+    "storage"
+  ]
+}

@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="lib/normalize.css"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.animate-colors-min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>LinkedIn Conversation</h2>
+      <div class="inner clearfix">
+        <p class="error">
+          You might not signed in to your LinkedIn profile.<br/>
+          Or your internet connection is corrupted.<br/>
+          Otherwise there must be something wrong with the extension,
+          <br/>please kindly report to Phan Chuong at <a href="#">pltchuong@gmail.com</a>
+        </p>
+        <div class="conversations"></div>
+        <div class="singular">
+          <h3><text></text> <span>&larr; back (or press 'z')</span></h3>
+          <ul></ul>
+        </div>
+      </div>
+      <div class="loading"></div>
+      <div class="tools">
+        <span class="tool reload" title="or press 'r'">&#8635;</span>
+        <span class="tool more" title="or press 'a'">+</span>
+      </div>
+    </div>
+  </body>
+</html>
